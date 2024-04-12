@@ -1,8 +1,9 @@
 ﻿using System.Globalization;
+using Allure.NUnit;
 
 namespace TestProject3;
 
-[TestFixture]
+[TestFixture, AllureNUnit]
 public class ExampleTests
 {
     [Test]

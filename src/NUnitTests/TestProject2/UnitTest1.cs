@@ -1,6 +1,8 @@
+using Allure.NUnit;
+
 namespace TestProject2;
 
-[TestFixture]
+[TestFixture, AllureNUnit]
 public class Tests
 {
     [SetUp]
