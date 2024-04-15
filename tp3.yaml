@@ -1,0 +1,6 @@
+execution:
+  - executor: nunit
+    concurrency: 2
+    iterations: 10
+    scenario:
+      script: src/NUnitTests/TestProject3/bin/Debug/net8.0/TestProject3.dll
