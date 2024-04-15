@@ -26,7 +26,7 @@ if (Test-Path -Path "${PSScriptRoot}\allure\allure-report")
         Remove-Item -Path "${PSScriptRoot}\allure\allure-results\history\*" -Recurse
     }
     
-    New-Item -ItemType Directory -Force -Path "${PSScriptRoot}\allure\allure-results\history"
+    New-Item -ItemType Directory -Force -Path "${PSScriptRoot}\allure\allure-results\history" | Out-Null
     Copy-Item -Force -Recurse "${PSScriptRoot}\allure\allure-report\history\*" -Destination "${PSScriptRoot}\allure\allure-results\history\"
     Start-AllureReportServer
 } 
