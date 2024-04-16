@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		openAllureReportWithHistory.ps1 = openAllureReportWithHistory.ps1
 		countAllureResultsFiles.ps1 = countAllureResultsFiles.ps1
 		runAllBztConfigs.ps1 = runAllBztConfigs.ps1
+		tp1.yaml = tp1.yaml
+		tp2.yaml = tp2.yaml
+		tp3.yaml = tp3.yaml
+		runBztConfig.ps1 = runBztConfig.ps1
+		AllureRuntimeConfigurationTest.ps1 = AllureRuntimeConfigurationTest.ps1
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "src\NUnitTests\TestProject1\TestProject1.csproj", "{1834B912-4DF5-46D4-A4FA-D73946903A35}"
@@ -20,6 +25,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject3", "src\NUnitTests\TestProject3\TestProject3.csproj", "{ECD9A103-1D62-4478-94B7-FA53177F6CBB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "allure", "allure", "{ED095B3C-35E7-4196-AE6F-05D41801A3D5}"
+	ProjectSection(SolutionItems) = preProject
+		allure\allureConfig.json = allure\allureConfig.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

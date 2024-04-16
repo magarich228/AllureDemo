@@ -1,4 +1,5 @@
-$allureResultsDir = "${PSScriptRoot}\allure\allure-results";
+$num = $args[0]
+$allureResultsDir = "${PSScriptRoot}\allure\allure-results${num}";
 
 if (Test-Path -Path "${allureResultsDir}")
 {

@@ -1,1 +1,1 @@
-Remove-Item -Recurse -Path "${PSScriptRoot}/allure/*"
+Remove-Item -Recurse -Path "${PSScriptRoot}/allure/*" -Exclude "allureConfig.json"
